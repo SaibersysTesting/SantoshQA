@@ -1,0 +1,6 @@
+1,MANUAL TEST CASES::For REST API's (Google API's).
+
+2,Get the Rest API's from Google and test in SoapUI and do the Webservice testing,
+  Get same thing done in JMeter.
+
+3, 3-4 Defects.
