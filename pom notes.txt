@@ -1,0 +1,16 @@
+Page object model(POM):
+--------------------
+We can automate both web applications and mobile applications using this Page object pattern(POM).
+
+EXample:
+
+For Home page:
+-------------
+->Create a java class(AmazonHomepage).
+->Define all the objects of homepage in this class.
+
+Then suppose for login page create another java class and define objects in that class
+->Java class (Loginpage)
+-> define objects
+
+In this way for thousands of pages we can call just object of that class and write the test cases.	
