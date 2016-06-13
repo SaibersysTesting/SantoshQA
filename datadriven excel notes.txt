@@ -1,0 +1,23 @@
+Data driving from Excel for feeding data:
+-----------------------------------------
+1) We use this when we are working with data driven framework
+2) For that we need to download POI API jars.
+3) These jars are useful to get the values fro excel or to set the values backt to excel
+4) Apache POI -download release artifacts.(to download jars)
+5) (https://poi.apache.org/download.html)
+6) We need to write the data need in excel sheet.
+    Then to connect the data to eclipse,we have give fileinputstream to identfy the path of excel sheet
+     i.e FileinputStream fis -- new fileinputStream();
+ Hierarchy
+-------------
+ workbook
+ 
+ Excel
+ 
+ sheet
+
+ select row
+
+ select column
+
+ Grab value/set the value
