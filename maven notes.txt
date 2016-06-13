@@ -1,0 +1,42 @@
+Jenkins:
+---------
+1) jenkins is basically a integration tool.You can schedule your test cases from jenkins.
+2) With help of jenkins we can check out the code from the central repositories like SVN,Github.
+   And we can have the option to mail the reports.
+3) We will use build management tool "Maven" or "Ant"
+
+commands:
+---------
+java-jar jenkins.war -httpport-8080 (enter this command in command prompt)
+
+And enter localhost:8080 then jenkins  will start
+
+Maven:
+-----
+1) Maven itself designs a project structure for us so that we don't need to separate folders or
+   packages.It will give us nice hierarchy which will separate object reposiroties and testcases
+2) It has in built project to develop framework dsign.
+3) We don't need to import selenium jars ,if we give 4 lines of dependency code into maven
+   POM.xml file then maven will do everything .
+
+Creating Maven project:
+----------------------
+commands:
+
+mvn archetype:generate
+
+Groupid
+Artifact id:
+ then go on pressing enter
+ then enter y
+
+To connect maven and eclipse we should give a command:
+
+mvn eclipse:eclipse
+
+compile
+mvn compile - checks the syntax errors in the code 
+mvn test - download the jars which are required   Reference pom.xml
+
+profiles
+mvn test-PSmokeTesting(smoke testing is id)
