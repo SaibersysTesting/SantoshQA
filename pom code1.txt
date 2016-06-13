@@ -1,0 +1,42 @@
+package objectrepository;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+
+public class AmazonLoginpage {
+	
+	WebDriver driver;
+	public  AmazonLoginpage(WebDriver driver)
+	{
+		this.driver =  driver;
+		
+	}
+	
+	By username = By.xpath(".//*[@id='ap_email']");
+	By Password = By.name( "password");
+	By signin = By.xpath(".//*[@id='signInSubmit']");
+	
+	
+	public WebElement Emailid()
+	{
+		
+		return driver.findElement(username);
+	}
+	
+
+	public WebElement Password()
+	{
+		
+		return driver.findElement(Password);
+	}
+	
+	public WebElement signin()
+	{
+		
+		return driver.findElement(signin);
+	}
+	
+
+}
