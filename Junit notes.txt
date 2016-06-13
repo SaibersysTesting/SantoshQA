@@ -1,0 +1,40 @@
+J-Unit
+----------
+1) Junit is a unit testing framework for java based applications
+2) It is heavily used by java developers
+3) Junit jar file code http://junit.org/
+4) It allows us to easily create repeatable test cases,specify setup for tests.You can generate
+  reports on Junit tests.
+
+Junit Test annotations:
+----------------------
+1)@Test-used to specify a test
+
+Test level annotations:
+----------------------
+@Before-is used to specify pre-test setup or actions for each test
+@After- is used for post test
+@Ignore- is used to ignore or skip a test
+
+Test class level annotations:
+----------------------------
+@Beforeclass-is used to specify pre-test setup or actions before any of your test
+@Afterclass-is used to specify pre-test setup or actions after any of your test\
+
+Assertions:
+-----------
+1) assertEquals(MessageOnFailure,ExpectedData,ActualData);
+2) assertTrue(MessageOnFailure,Comparisons or conditions);
+3) fail(MessageOnFailure);
+
+Junit test suite syntax:
+------------------------
+@RunWith(suite.class)
+
+@suiteClasses({
+        all the classes like "IndeedsiteTests.class"(make sure to have .class but not .java)
+
+               })
+public class Regressionsuite{
+
+}
